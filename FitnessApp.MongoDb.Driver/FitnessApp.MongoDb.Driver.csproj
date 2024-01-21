@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyTitle>MongoDB.Driver</AssemblyTitle>
+    <Product>MongoDB.Driver</Product>
+    <PackageId>FitnessApp.MongoDB.Driver</PackageId>
+    <Description>Official MongoDB supported driver for MongoDB.</Description>
+    <PackageDescription>Official .NET driver for MongoDB.</PackageDescription>
+    <IsPackable>true</IsPackable>
+    <Version />
+    <RepositoryUrl>https://github.com/voldovgan2/FitnessApp.MongoDb</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FitnessApp.MongoDb.Bson" Version="1.0.0" />
+    <PackageReference Include="FitnessApp.MongoDb.Core" Version="1.0.0" />
+    <PackageReference Include="MongoDB.Libmongocrypt" Version="1.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
