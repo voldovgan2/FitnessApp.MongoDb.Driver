@@ -30,7 +30,7 @@ jobs:
       id: gitversion # step id used as reference for output values
       with:
         useConfigFile: true
-        configFilePath: ./.github/gitversion.yml 
+        configFilePath: gitversion.yml 
       
     - name: Display GitVersion outputs
       run: |
